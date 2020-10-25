@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle_Square", "Triangle_Square\Triangle_Square.csproj", "{03A01879-17E0-455B-83AF-1D9AF5298E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distance", "Distance\Distance.csproj", "{A31DC588-7A7E-44FD-AC62-5435A1ED7DA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A01879-17E0-455B-83AF-1D9AF5298E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A01879-17E0-455B-83AF-1D9AF5298E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A01879-17E0-455B-83AF-1D9AF5298E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A01879-17E0-455B-83AF-1D9AF5298E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31DC588-7A7E-44FD-AC62-5435A1ED7DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31DC588-7A7E-44FD-AC62-5435A1ED7DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31DC588-7A7E-44FD-AC62-5435A1ED7DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31DC588-7A7E-44FD-AC62-5435A1ED7DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
