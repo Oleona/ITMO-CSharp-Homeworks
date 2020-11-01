@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equation_roots", "Equation_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exploring_arrays", "exploring_arrays\exploring_arrays.csproj", "{D7CA13F5-85BB-4819-BE81-376256B6A637}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle_class", "Triangle_class\Triangle_class.csproj", "{33014DDE-2AC3-47A7-8F19-27C6D1C58557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D7CA13F5-85BB-4819-BE81-376256B6A637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7CA13F5-85BB-4819-BE81-376256B6A637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7CA13F5-85BB-4819-BE81-376256B6A637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33014DDE-2AC3-47A7-8F19-27C6D1C58557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33014DDE-2AC3-47A7-8F19-27C6D1C58557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33014DDE-2AC3-47A7-8F19-27C6D1C58557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33014DDE-2AC3-47A7-8F19-27C6D1C58557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
