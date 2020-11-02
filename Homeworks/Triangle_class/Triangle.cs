@@ -20,13 +20,25 @@ namespace Triangle_class
             }
         }
 
-        public double getArea(float side1, float side2, float side3)
+        public Triangle(float side)
         {
-            double semi_perimetr = getPerimeter(side1, side2, side3) / 2;
+            this.side1 = this.side2 = this.side3 = side;
+        }
+
+        public Triangle()
+        {
+            this.side1 = 4;
+            this.side2 = 5;
+            this.side3 = 7;
+        }
+
+        public double getArea()
+        {
+            double semi_perimetr = getPerimeter() / 2;
             return Math.Sqrt((semi_perimetr * (semi_perimetr - side1) * (semi_perimetr - side2) * (semi_perimetr - side3)));
         }
 
-        public double getPerimeter(float side1, float side2, float side3)
+        public double getPerimeter()
         {
             return (side1 + side2 + side3);
         }

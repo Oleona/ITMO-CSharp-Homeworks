@@ -15,13 +15,31 @@ namespace Triangle_class
 
             try
             {
-                Triangle triangle1 = new Triangle(side1, side2, side3);
-                double perimeter = triangle1.getPerimeter(side1, side2, side3);
-                double area = triangle1.getArea(side1, side2, side3);
 
-                triangle1.PrintSides();
+                Triangle triangle1 = new Triangle(side1, side2, side3);
+                double perimeter = triangle1.getPerimeter();
+                double area = triangle1.getArea();
                 Console.WriteLine($" Perimeter is {perimeter}");
                 Console.WriteLine($" Area is {area}");
+                triangle1.PrintSides();
+
+                Console.WriteLine("For a triangle with sides from the constructor ");
+                Triangle triangle2 = new Triangle();
+                double perimeter2 = triangle2.getPerimeter();
+                double area2 = triangle2.getArea();
+                Console.WriteLine($" Perimeter is {perimeter2}");
+                Console.WriteLine($" Area is {area2}");
+                triangle2.PrintSides();
+
+                Console.WriteLine("For an equilateral triangle ");
+                float side = 7.77f;
+                Triangle triangle3 = new Triangle(side);
+                double perimeter3 = triangle3.getPerimeter();
+                double area3 = triangle3.getArea();
+                Console.WriteLine($" Perimeter is {perimeter3}");
+                Console.WriteLine($" Area is {area3}");
+                triangle3.PrintSides();
+
             }
             catch (Exception e)
             {
