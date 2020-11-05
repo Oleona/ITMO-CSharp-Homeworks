@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle_class", "Triangle_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book", "book\book.csproj", "{263BE79A-4330-4FF4-BE8E-44ACE05DF0AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shape_hierarchy", "shape_hierarchy\shape_hierarchy.csproj", "{B252C8AD-22E3-4CA7-82B0-439D0F4CB38A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{263BE79A-4330-4FF4-BE8E-44ACE05DF0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263BE79A-4330-4FF4-BE8E-44ACE05DF0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263BE79A-4330-4FF4-BE8E-44ACE05DF0AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B252C8AD-22E3-4CA7-82B0-439D0F4CB38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B252C8AD-22E3-4CA7-82B0-439D0F4CB38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B252C8AD-22E3-4CA7-82B0-439D0F4CB38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B252C8AD-22E3-4CA7-82B0-439D0F4CB38A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
